@@ -95,12 +95,12 @@ call s:highlight_helper("SignColumn", "NONE", "")
 call s:highlight_helper("LineNr", "${uiGroups.gray3}", "")
 call s:highlight_helper("CursorLine", "NONE", "${uiGroups.gray2}")
 call s:highlight_helper("CursorColumn", "${uiGroups.gray2}", "")
-call s:highlight_helper("EndOfBuffer", "${uiGroups.gray2}", "")
+call s:highlight_helper("EndOfBuffer", "${uiGroups.background}", "")
 call s:highlight_helper("VertSplit", "${uiGroups.gray2}", "${uiGroups.gray2}")
 call s:highlight_helper("StatusLineNC", "${uiGroups.background}", "${uiGroups.gray2}")
 call s:highlight_helper("Pmenu", "${uiGroups.foreground}", "${uiGroups.gray2}")
 call s:highlight_helper("PmenuSbar", "${uiGroups.gray4}", "${uiGroups.gray4}")
-call s:highlight_helper("ColorColumn", "${uiGroups.gray2}", "")
+call s:highlight_helper("ColorColumn", "${uiGroups.grayColorColumn}", "${uiGroups.gray2}", "")
 
 
 " ==================================================================

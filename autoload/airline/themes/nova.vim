@@ -36,7 +36,7 @@ let g:airline#themes#nova#palette.replace = airline#themes#generate_color_map(s:
 let g:airline#themes#nova#palette.replace_modified = s:modified
 
 " Inactive mode
-let s:IN1 = [ "#3C4C55" , "#556873" , "" , "" ]
+let s:IN1 = [ "#2C2C2C" , "#556873" , "" , "" ]
 let s:IN2 = s:IN1
 let s:IN3 = s:IN1
 let g:airline#themes#nova#palette.inactive = airline#themes#generate_color_map(s:IN1, s:IN2, s:IN3)
@@ -71,7 +71,7 @@ let s:tabfill = airline#themes#get_highlight2(['Normal', 'bg'], ['Normal', 'bg']
 let g:airline#themes#nova#palette.tabline = {
   \ 'airline_tab': s:N2,
   \ 'airline_tabsel': s:N1,
-  \ 'airline_tabtype': [ "#3C4C55" , "#A8CE93" , "" , "" ],
+  \ 'airline_tabtype': [ "#2C2C2C" , "#A8CE93" , "" , "" ],
   \ 'airline_tabfill': s:tabfill,
   \ 'airline_tabhid': s:IN2
   \ }
