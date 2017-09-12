@@ -11,7 +11,7 @@ function! s:highlight_helper(...)
   let l:background_color = empty(a:3) ? "#2C2C2C" : a:3
   let l:gui = a:0 == 3 ? "None" : a:4
 
-  exec "highlight " . l:syntax_group . " guifg=" . l:foreground_color . " guibg=" . l:background_color . " gui=" . l:gui . " cterm=NONE term=NONE"
+  exec "highlight " . l:syntax_group . " guifg=" . l:foreground_color . " guibg=" . l:background_color
 endfunction
 
 
